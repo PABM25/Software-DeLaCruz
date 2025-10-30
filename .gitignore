@@ -1,6 +1,4 @@
 # Logs
-
-.env
 logs
 *.log
 npm-debug.log*
@@ -9,10 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Archivos de Entorno (¡Sensible!)
+# Ignora todos los archivos .env, .env.local, .env.production, etc.
+*.env
+*.local
+
+# Dependencias (¡MUY IMPORTANTE!)
+# Ignora node_modules en la raíz
 node_modules
+# Ignora node_modules en la carpeta del servidor
+server/node_modules
+
+# Carpetas de Build (Producción)
 dist
 dist-ssr
-*.local
+.vite/
+.output/
 
 # Editor directories and files
 .vscode/*
