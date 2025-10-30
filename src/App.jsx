@@ -4,14 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
 import Sidebar from './components/SideBar';
 import Dashboard from './pages/Dashboard';
-import RegistroPecheras from './pages/RegistroPecheras';
-import Login from './pages/Login';
-import RegistroEmp from './pages/RegistroEmpresa';
-import Empresa from './pages/Empresa';
-import Pechera from './pages/DatoPechera';
-import RegistroUsuarios from './pages/RegistroUsuarios';
-import DashboardEmpresa from './pages/DashboardEmpresa';
-import Modificarempresa from './pages/ModificarEmpresa';
+import RegistroPecheras from './pages/registropecheras';
+import Login from './pages/login';
+import RegistroEmp from './pages/registroempresa';
+import Empresa from './pages/empresa';
+import Pechera from './pages/datopechera';
+import RegistroUsuarios from './pages/registrousuarios';
+import DashboardEmpresa from './pages/dashboardempresa';
+import Modificarempresa from './pages/modificarempresa';
 import ModificarUsuario from './pages/ModificarUsuario';
 import Usuarios from './pages/Usuarios';
 import ModificarPecheras from './pages/ModificarPecheras';
@@ -22,8 +22,9 @@ import DistribucionPecheras from './pages/DistribucionPecheras';
 import EliminarPechera from './pages/EliminarPechera';
 import InfoPechera from './pages/InfoPechera';
 
-import { AuthProvider } from './context/AuthContext';
-import PrivateRoute from './components/PrivateRoute';
+import { AuthProvider } from './context/AuthContext.jsx';
+import PrivateRoute from './components/PrivateRoute.jsx';
+
 
 const App = () => {
   return (
