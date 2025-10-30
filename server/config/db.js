@@ -1,6 +1,7 @@
-const mysql = require('mysql2');
-require('dotenv').config(); // Asegúrate de que dotenv está importado
+// const mysql = require('mysql2');
+// require('dotenv').config(); // Asegúrate de que dotenv está importado
 
+/*
 const conexion = mysql.createConnection({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
@@ -16,5 +17,7 @@ conexion.connect((err) => {
     }
     console.log('Conectado a la base de datos');
 });
+*/
 
-module.exports = conexion;
+// Exportamos un objeto vacío para que las importaciones no fallen
+export default {};
