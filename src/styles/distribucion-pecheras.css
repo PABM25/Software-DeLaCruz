@@ -1,0 +1,100 @@
+/* Estilo general del contenedor */
+#container-dist {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Títulos y encabezados */
+.tit-dist {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para el contenedor del filtro */
+.search-bar {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilos para la etiqueta del filtro */
+.search-bar label {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Estilos para el menú desplegable del filtro */
+.search-bar select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilos para el menú desplegable del filtro al enfocarse */
+.search-bar select:focus {
+    border-color: rgb(2, 62, 138);
+    box-shadow: 0 0 4px rgb(2, 62, 138);
+}
+
+#distribucion-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#distribucion-table th, #distribucion-table td {    
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#distribucion-table th{
+    background-color: rgb(255, 138, 34);
+    text-align: left;
+}
+#distribucion-table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+#distribucion-table tr:hover {
+    background-color: #d0d3ed;
+}
+
+
+.distribucion-button {
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.distribucion-button:hover{
+    background-color: rgb(195, 214, 255);
+}
+
+#btn-eliminar-reg{
+    margin-left: 1095px;
+    margin-bottom:10px ; /* Mantiene la posición original */
+    padding: 10px 15px;
+    background-color: rgb(220, 53, 69); /* Color rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición para el fondo y transformaciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

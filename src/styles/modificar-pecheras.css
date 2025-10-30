@@ -1,0 +1,46 @@
+#tarj-mod-pech{
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+.titulo-modi{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#modi-pech-s{
+    max-width: 900px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.observacion {
+    height: 50px;
+}
+
+.card label {
+    font-weight: 600;
+}
+
+
+.btn-mod {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar {
+    margin-top: 1%;
+    font-weight: 600;
+}
+
+
+.btn-guard-camb{
+    display: flex;
+    margin: auto;
+    margin-bottom: 1%;
+}

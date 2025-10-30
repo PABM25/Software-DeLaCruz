@@ -1,0 +1,8 @@
+
+.card{
+    margin-top: 5%;
+}
+.boton-submit{
+    display: flex;
+    justify-content: center;
+}

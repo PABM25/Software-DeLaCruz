@@ -1,0 +1,40 @@
+.login-body{
+    margin-left: -15%;
+}
+
+#logo{
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.card-title{
+    font-size: xx-large;
+}
+
+#toggle-password {
+    margin-top: 2.5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.end-0 {
+    right: 0;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.translate-middle-y {
+    transform: translateY(-50%);
+}

@@ -1,0 +1,103 @@
+card-title{
+    font-size: x-large;
+}
+.card-header{
+    font-size: 16.4px;
+    font-weight: 500;
+}
+
+
+#btn-reg{
+    padding: 10px 15px;
+    background-color: rgb(255, 138, 34);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#header-azul{
+    background-color: rgb(2, 62, 138);
+    color: white;
+}
+
+#body-naranja{
+    background-color: rgb(255, 219, 187);
+}
+
+#body-azul{
+    background-color: rgb(195, 214, 255);
+}
+
+#header-naranja{
+    background-color: rgb(255, 138, 34);
+    color: white;
+}
+
+#card-3{
+    background-color: rgb(2, 62, 138);
+    color: white;
+}
+
+#card-grafico {
+    width: 970px;
+    height: 320px;
+    padding-bottom: 29px;
+}
+
+.card-grafico-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-grafico {
+    margin-top: -2.5%;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.card-cuerpo {
+
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.card-cuerpo canvas {
+    height: 50px; /* Ajusta la altura máxima del gráfico */
+    width: auto; /* Mantiene la proporción del gráfico */
+}
+
+.tarjeta{
+    height: 95%;
+}
+
+
+.img-danadas{
+    width: 25%;
+    height: auto;
+}
+
+.img-lavadas{
+    width: 25%;
+    height: auto;
+}
+.plus{
+    width: 3%;
+    height: auto;
+}
+.Fabs{
+    width: 28%;
+    height: auto;
+}
+.Dispo{
+    width: 28%;
+    height: auto;
+}
+
+
+.tit-dash{
+    font-size: 40px;
+}

@@ -1,0 +1,100 @@
+/* Contenedor principal */
+#cont-reg-pe {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo claro para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+
+/* Título */
+.tit-pech {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo del formulario */
+.formpech {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de cada campo del formulario */
+.div-regpe {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+.label-regpe {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555; /* Color más suave para las etiquetas */
+}
+
+/* Inputs y selects */
+.input-regpe,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+.input-regpe:focus,
+select:focus {
+    border-color: rgb(2, 62, 138); /* Color de borde en foco */
+    outline: none; /* Elimina el contorno predeterminado */
+}
+
+/* Estilo del botón de registro */
+#btn-agregar {
+    display: inline-block; /* Mantiene el tamaño adecuado */
+    width: 200px;
+    margin-left: auto; /* Ajuste para centrarlo */
+    margin-right: auto; /* Ajuste para centrarlo */
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición para el fondo y transformaciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+#btn-agregar:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Espaciado para las UIDs leídas */
+.uids-leidas {
+    margin-top: 15px;
+}
+
+/* Estilo del botón de eliminar */
+#btn-limpiar-reg {
+    margin-left: 1095px; /* Mantiene la posición original */
+    padding: 10px 15px;
+    background-color: rgb(220, 53, 69); /* Color rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición para el fondo y transformaciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+#btn-eliminar:hover {
+    background-color: rgb(177, 28, 41); /* Color de fondo al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}

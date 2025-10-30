@@ -1,0 +1,222 @@
+/* Contenedor de la vista de datos */
+#cont-dat-pe {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tit-pech {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para la tabla de datos */
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tabla-datos th,
+.tabla-datos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla-datos th {
+    background-color: rgb(255, 138, 34);
+    text-align: left;
+    color: white;
+
+}
+
+.tabla-datos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-datos tr:hover {
+    background-color: #d0d3ed;
+}
+
+.btn-edit:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #721414;
+    color: white;
+}
+
+/* Estilo para los selectores y campos de entrada */
+.search-bar select,
+.search-bar input {
+    padding: 10px;
+    /* Espaciado interior */
+    border: 1px solid #ccc;
+    /* Borde gris claro */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    transition: border-color 0.3s;
+    /* Transición para el borde */
+}
+
+/* Efecto al enfocarse en los selectores y campos de entrada */
+.search-bar select:focus,
+.search-bar input:focus {
+    border-color: #345e;
+    /* Color del borde al enfocar */
+    outline: none;
+    /* Eliminar el contorno por defecto */
+}
+
+/* Estilo para el botón de limpiar */
+.btn-clear {
+    background-color: #f44336;
+    /* Color de fondo rojo */
+    color: white;
+    /* Color del texto blanco */
+    padding: 10px;
+    /* Espaciado interior */
+    border: none;
+    /* Sin borde */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s;
+    /* Transición para el fondo */
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #d0d3ed;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #007bff;
+}
+
+.pagination button:hover {
+    background-color: rgb(2, 62, 138);
+}
+
+
+.distri {
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);
+    ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.distri:hover {
+    background-color: rgb(83, 136, 250);
+}
+
+.info {
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);
+    ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+
+.info:hover {
+    background-color: rgb(83, 136, 250);
+}
+
+#btn-eliminar {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -1px;
+    margin-left: 20px;
+    background-color: rgb(220, 53, 69);
+}
+
+.modi-pech {
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#btn-limpiar {
+    padding: 10px 15px;
+    background-color: rgb(2, 62, 138);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 300px;
+}
+
+
+.modi-pech:hover {
+    background-color: rgb(83, 136, 250);
+}
+
+#btn-excel{
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -1px;
+    margin-left: 20px;
+    background-color: #5cb85c;
+}
+
+
+#btn-pdf{
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -1px;
+    margin-left: 20px;
+    background-color: rgb(220, 53, 69);
+}
+

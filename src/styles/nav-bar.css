@@ -1,0 +1,81 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #ffffff;
+    color: #333; /* Texto gris oscuro para mejor contraste */
+    margin: 0;
+    padding: 5px 10px; /* Padding para un diseño más equilibrado */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000; /* Asegúrate de que la barra esté por encima del sidebar */
+    border-bottom: 1px solid #dcdcdc; /* Línea inferior gris clara */
+    left: 0;
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para un efecto 3D */
+}
+
+/* Estilos para el logo */
+.navbar-brand {
+    display: flex; /* Flexbox para alinear el contenido */
+    align-items: center; /* Alinea el logo verticalmente en el centro */
+}
+
+/* Estilo del logo */
+#logo-d {
+    width: 12%; /* Tamaño del logo ajustado */
+    height: auto;
+}
+
+/* Botón de hamburguesa */
+.navbar-toggler {
+    background: none;
+    color: #333; /* Color de texto gris oscuro para contraste */
+    font-size: 20px; /* Tamaño del texto ajustado */
+    cursor: pointer;
+    z-index: 2001; /* Asegúrate de que el botón esté por encima de otros elementos */
+}
+
+/* Estilos para la ventana flotante del perfil */
+.profile-container {
+    position: relative;
+    display: flex; /* Usa flexbox para alinear el contenido */
+    align-items: center; /* Alinea verticalmente el botón y la ventana */
+}
+
+.profile-menu {
+    position: absolute;
+    top: 50px; /* Ajusta la distancia según tu diseño */
+    right: 0; /* Alinea la ventana al borde derecho */
+    background-color: #ffffff; /* Fondo blanco para el menú */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto 3D */
+    padding: 10px;
+    z-index: 2001; /* Asegúrate de que el menú esté por encima del sidebar y otros elementos */
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    display: none; /* Oculta por defecto */
+}
+
+.profile-menu.show {
+    display: block; /* Muestra la ventana flotante */
+}
+
+.profile-menu p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.profile-menu .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Alineación del botón de perfil a la derecha */
+#person {
+    width: 12%; /* Tamaño ajustado */
+    height: auto;
+    cursor: pointer;
+    color: #333; /* Color de texto gris oscuro para contraste */
+    margin-left: auto;
+}

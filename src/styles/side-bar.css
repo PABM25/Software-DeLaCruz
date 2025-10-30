@@ -1,0 +1,75 @@
+.sidebar {
+  position: fixed;
+  top: 86px; /* Ajusta para que esté justo debajo del Navbar */
+  left: 0;
+  width: 200px;
+  height: calc(100% - 60px); /* Ajusta la altura para que no se solape con el Navbar */
+  background-color: #ffffff; /* Color de fondo blanco para el sidebar */
+  color: #333; /* Texto gris oscuro para mejor contraste */
+  transition: left 0.3s ease;
+  z-index: 1000; /* Asegúrate de que el Sidebar esté debajo del Navbar */
+  font-size: 14px; /* Tamaño del texto en el sidebar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para un efecto 3D */
+}
+
+/* Estilizar el logo en el Sidebar */
+#logo-img {
+  width: 20%; /* Tamaño ajustado */
+  height: auto;
+}
+
+/* Estilo de la lista de navegación */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #333; /* Color de texto gris oscuro para mejor contraste */
+  text-decoration: none;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff; /* Fondo blanco por defecto */
+  border-radius: 4px; /* Añade un ligero borde redondeado para el efecto de botón */
+}
+
+li:hover {
+  background-color: #f0f0f0; /* Color de fondo al pasar el cursor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar efecto de botón */
+}
+
+li:active {
+  background-color: #03458e; /* Color de fondo al hacer clic */
+  color: #ffffff; /* Cambia el color del texto al hacer clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer clic */
+}
+
+svg {
+  margin-right: 10px;
+  fill: #333; /* Color de los iconos gris oscuro para mejor contraste */
+}
+
+/* Añadir margen superior al contenido principal */
+.main-content {
+  margin-top: 60px; /* Ajusta según la altura del Navbar */
+  margin-left: 200px; /* Ajusta el margen izquierdo para que no se solape con el Sidebar */
+}
+
+
+.barra span {
+  font-weight: 600;
+}
+
+.wash{
+  width: 19%;
+  height: auto;
+}
+.lavado{
+  margin-left: 6%;
+}

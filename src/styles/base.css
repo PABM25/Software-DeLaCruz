@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin-top: 6%;
+    margin-left: 13.5%;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    user-select: none; /* Previene la selección de texto */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Internet Explorer/Edge */
+}
+
+

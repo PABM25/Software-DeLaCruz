@@ -1,0 +1,67 @@
+#cont-modificar-emp {
+  max-width: 900px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.tit-modificar-emp {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.form-modi-emp {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-modi-emp .div-emp {
+  margin-bottom: 15px;
+}
+
+.label-modi-emp {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-modi-emp[type="text"],
+.input-modi-emp[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-modi-emp[type="text"]:focus,
+.input-modi-emp[type="number"]:focus {
+  border-color: rgb(2, 62, 138);
+  outline: none;
+}
+
+.button-modi-emp[type="submit"] {
+  padding: 10px 15px;
+  background-color:  rgb(2, 62, 138);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-modi-emp[type="submit"]:hover {
+  background-color: rgba(2, 61, 138, 0.603);
+}
+
+.p-emp {
+  margin: 5px 0 0;
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+

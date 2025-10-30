@@ -1,0 +1,20 @@
+
+.body{
+    user-select: none; /* Previene la selección de texto */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Internet Explorer/Edge */
+}
+.FECHA_REGISTRO{
+    font-size: x-large;
+}
+
+.accordion-button {
+    background-color: transparent !important; /* Quitar color de fondo */
+    border: none !important; /* Eliminar el borde */
+    box-shadow: none !important; /* Eliminar el sombreado */
+  }
+  .accordion-button:hover {
+    background-color: #1667b8; /* Color de fondo al pasar el mouse */
+  }
+  

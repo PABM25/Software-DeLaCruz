@@ -1,0 +1,66 @@
+#cabecera-us{
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo-card{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#Agregar-us{
+  padding: 10px 15px;
+  background-color: rgb(2, 62, 138);;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#Agregar-us:hover{
+  background-color:rgb(83, 136, 250);
+}
+
+.table-usuario{
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.table-usuario th, .table-usuario td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table-usuario th {
+  background-color: rgb(255, 138, 34);
+  text-align: left;
+  color: white;
+
+}
+.table-usuario tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-usuario tr:hover {
+  background-color: #d0d3ed;
+}
+#Agregar-us:hover{
+  background-color: rgb(0, 48, 110);
+}
+
+.mod{
+  background-color: rgb(255, 138, 34);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.mod:hover{
+  background-color: rgb(255, 119, 0);
+  color: white;
+}
+
+

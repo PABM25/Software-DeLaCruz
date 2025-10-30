@@ -1,0 +1,197 @@
+/* Estilos generales */
+.ecologia {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Contenedor de selección */
+.select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.tit-tipo-pech{
+  background-color: white;
+}
+
+.select-container select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-top: 10px;
+  background-color: #f0f8f5;
+}
+
+/* Contenedor de gráficos */
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos de tarjetas de gráficos */
+.chart-card {
+  background-color: #ffffff;
+  border: 2px solid #c8e6c9;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 calc(25% - 20px); /* Ajuste de tamaño de tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.chart-card:hover {
+  transform: scale(1.05);
+}
+
+.titulos-ecovista {
+  text-align: center;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Slider para selección de número de usos */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.slider-container input[type="range"] {
+  width: 80%;
+  margin-top: 10px;
+  accent-color: #2e7d32;
+}
+
+/* Tarjetas resumen */
+.summary-cards {
+  display: flex;
+  justify-content: space-between; /* Distribuye las tarjetas en una fila */
+  gap: 20px;
+  flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas si es necesario */
+  margin-top: 20px;
+}
+
+.summary-card {
+  background-color: #ffffff;
+  border: 2px solid #c8e6c9;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px); /* Ajuste de tamaño de tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.summary-card:hover {
+  transform: scale(1.05);
+}
+
+.summary-card h3 {
+  color: #2e7d32;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Hacer que las tarjetas se ajusten a pantallas más pequeñas */
+@media (max-width: 768px) {
+  .summary-cards {
+    flex-direction: column; /* Las tarjetas se apilan en pantallas pequeñas */
+    align-items: center;
+  }
+  .summary-card {
+    flex: 1 1 100%; /* Ocupan todo el ancho en pantallas pequeñas */
+    margin-bottom: 20px; /* Espaciado entre las tarjetas */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px; /* Ajuste del tamaño del título en pantallas muy pequeñas */
+  }
+  .summary-card h3 {
+    font-size: 16px; /* Ajuste del tamaño de los encabezados de las tarjetas */
+  }
+}
+
+/* COMIENZO Estilos tasas de crecimiento anual y variación*/
+
+#variables{
+  padding: 15px;
+  margin: 20px;
+}
+
+#h3-tasas{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.labels{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.inputs{
+  margin: 10px;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* FIN Estilos tasas de crecimiento anual y variación*/
+
+/*COMIENZO Estilos KILOGRAMOS POR PLASTICO Y ANOS DE PROYECCIÓN*/
+
+.kg{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.inputs-kg-anos{
+  width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}

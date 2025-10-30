@@ -1,0 +1,154 @@
+/* Estilos para el modal personalizado */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 138, 34); 
+    color: white; /* Color del texto */
+}
+
+.button-confirm {
+    background-color: rgb(2, 62, 138);
+}
+
+.button-confirm:hover {
+    background-color: rgb(1, 50, 110); 
+}
+
+.button:hover {
+    background-color: rgba(255, 138, 34, 0.8); 
+}
+
+/* Estilos para los inputs de fecha */
+#desde,
+#hasta {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 40px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#desde:focus,
+#hasta:focus {
+    border-color: rgb(2, 62, 138); 
+    outline: none;
+}
+
+/* Estilos para las etiquetas de los inputs de fecha */
+#desde-label,
+#hasta-label {
+    display: block; 
+    margin: 10px 0; 
+    font-weight: bold; 
+}
+
+/* Estilos específicos para la etiqueta desde */
+#desde-label {
+    font-size: 1.1em; 
+    text-align: left;
+    padding: 5px; 
+    border-radius: 4px;
+}
+
+/* Estilos específicos para la etiqueta hasta */
+#hasta-label {
+    font-size: 1.1em; 
+    text-align: left; 
+    padding: 5px; 
+    border-radius: 4px; 
+}
+
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+  }
+  
+  .hourglass-popup {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hourglass-icon {
+    font-size: 50px;
+    animation: hourglass 1s linear infinite;
+    color: #3498db;
+  }
+  
+  @keyframes hourglass {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+  }
+  
+  .loading-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
